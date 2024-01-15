@@ -56,6 +56,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,  _______,  _______,                                _______,                                _______,  _______,  _______,    _______,  _______,  _______,  _______,  _______,            _______,  _______),
 };
 
+#define __ NO_LED
+
 // changed 0 key on numpad to alphanumeric flag
 led_config_t g_led_config = {
     {
