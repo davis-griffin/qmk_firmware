@@ -144,6 +144,7 @@ const snled27351_led_t PROGMEM g_snled27351_leds[RGB_MATRIX_LED_COUNT] = {
 
 #define __ NO_LED
 
+// DG 20241501 changed 0 key on numpad to alphanumeric flag
 led_config_t g_led_config = {
     {
         // Key Matrix to LED Index
@@ -170,7 +171,7 @@ led_config_t g_led_config = {
         1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1, 1, 1, 4, 4, 4,
         8, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,    1,          4, 4, 4, 4,
         1,    4, 4, 4, 4, 4, 4, 4, 4, 4, 4,    1,    1,    4, 4, 4,
-        1, 1, 1,          4,          1, 1, 1, 1, 1, 1, 1, 1,    4, 1,
+        1, 1, 1,          4,          1, 1, 1, 1, 1, 1, 1, 4,    4, 1,
     }
 };
 
